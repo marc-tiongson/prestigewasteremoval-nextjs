@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+public/wp-content/
+public/wp-includes/
+public/static/
+public/*.xml
+public/*.xsl
+public/robots.txt
+generated/
+artifacts/
+.env*
+!.env.example
+*.log
+repo-source.zip
+simply-static-1-1788969748/

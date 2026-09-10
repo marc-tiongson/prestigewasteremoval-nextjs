@@ -1,0 +1,15 @@
+{
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "trailingSlash": true,
+  "headers": [
+    { "source": "/static/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
+  ],
+  "redirects": [
+    { "source": "/service/garbage-pickup/", "destination": "/blog/service/garbage-pickup/", "permanent": true },
+    { "source": "/service/dumpster-rental/", "destination": "/blog/service/dumpster-rental/", "permanent": true },
+    { "source": "/service/trash-removal/", "destination": "/blog/service/trash-removal/", "permanent": true },
+    { "source": "/service/portable-toilets/", "destination": "/services/", "permanent": true },
+    { "source": "/blog/2025/04/", "destination": "/blog/category/blog/", "permanent": true }
+  ]
+}

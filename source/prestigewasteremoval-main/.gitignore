@@ -1,0 +1,5 @@
+node_modules/
+tools/original/
+tools/browser-profile/
+tools/test-results/
+*.log
